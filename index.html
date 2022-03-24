@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- styling -->
+    <link rel="stylesheet" href="./css/styles.css" />
+
+    <title>Frontend Mentor | Fylo data storage component</title>
+  </head>
+  <body>
+    <main class="main">
+      <section class="section">
+        <header class="section__header">
+          <div class="logo-box">
+            <img src="./images/logo.svg" alt="logo" class="logo" />
+          </div>
+          <div class="section__icons">
+            <div class="section__icon">
+              <img
+                src="./images/icon-document.svg"
+                alt="document icon"
+                class="section__icon-img"
+              />
+            </div>
+            <div class="section__icon">
+              <img
+                src="./images/icon-folder.svg"
+                alt="folder icon"
+                class="section__icon-img"
+              />
+            </div>
+            <div class="section__icon">
+              <img
+                src="./images/icon-upload.svg"
+                alt="upload icon"
+                class="section__icon-img"
+              />
+            </div>
+          </div>
+        </header>
+        <div class="section__details">
+          <p class="section__text">
+            You’ve used <span>815 GB</span> of your storage
+          </p>
+          <div class="gauge">
+            <div class="range">
+              <div class="range--circle"></div>
+            </div>
+          </div>
+          <p class="range-limits">
+            <span class="range-limit--low">0 GB</span>
+            <span class="range-limit--high">1000 GB</span>
+          </p>
+          <div class="left">
+            <p class="left--value">185</p>
+            <p class="left--text">GB Left</p>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
